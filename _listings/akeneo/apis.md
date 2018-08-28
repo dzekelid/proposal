@@ -12,11 +12,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "164081"
 tags: Proposal
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/proposal/master/_listings/akeneo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Official Akeneo PIM API - proposal (2.x and EE only)
+  x-api-slug: restv1productsaknts-bpsproposal-post
+  description: |-
+    Assuming that there is already a draft for the given product. The draft was created by the same user using this request.
+    The user has only an edition permission through categories on the given product.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/proposal/master/_listings/akeneo/restv1productsaknts-bpsproposal-post-openapi.md
+- name: Official Akeneo PIM API - proposal (2.3 and EE only)
+  x-api-slug: restv1productmodelsamorproposal-post
+  description: |-
+    Assuming that there is already a draft for the given product model. The draft was created by the same user using this request.
+    The user has only an edition permission through categories on the given product model.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/proposal/master/_listings/akeneo/restv1productmodelsamorproposal-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.akeneo.com/feed/
